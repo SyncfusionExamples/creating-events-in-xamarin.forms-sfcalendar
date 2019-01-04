@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.1.527436" />
-    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="16.3.0.21" />
+    <PackageReference Include="Xamarin.Forms" Version="*" />
+    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="*" />
   </ItemGroup>
 
   <ItemGroup>

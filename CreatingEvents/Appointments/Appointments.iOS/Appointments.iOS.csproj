@@ -120,10 +120,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>2.5.1.527436</Version>
+      <Version>*</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCalendar">
-      <Version>16.3.0.21</Version>
+      <Version>*</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
