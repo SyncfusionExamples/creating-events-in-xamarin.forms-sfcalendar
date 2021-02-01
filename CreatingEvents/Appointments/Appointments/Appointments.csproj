@@ -6,11 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="*" />
-    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="*" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="CalendarBehavior.cs" />
+    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="18.4.0.39" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
